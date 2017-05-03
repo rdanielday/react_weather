@@ -1,2 +1,2 @@
-# React Boilerplate
-Boilerplate for React app with basic file structure and webpack config
+# React Weather App
+Small weather app built using React
