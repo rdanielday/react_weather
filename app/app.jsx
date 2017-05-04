@@ -11,6 +11,10 @@ var {
     IndexRoute,
     hashHistory
     } = require("react-router");
+    
+// load Foundation
+require("style!css!foundation-sites/dist/foundation.min.css");
+$(document).foundation();
 
 ReactDOM.render(
   <Router history={hashHistory}>
