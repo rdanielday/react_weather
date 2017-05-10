@@ -3,7 +3,7 @@ var webpack = require("webpack");
 module.exports = {
   entry: [
     "script!jquery/dist/jquery.min.js",
-    "script!foundation-sites/dist/foundation.min.js",
+    "script!foundation-sites/dist/js/foundation.min.js",
     "./app/app.jsx"
   ],
   externals: {
@@ -20,7 +20,7 @@ module.exports = {
     filename: "./public/bundle.js"
   },
   resolve: {
-    root: __dirname, 
+    root: __dirname,
     alias: {
       Main: "app/components/Main.jsx",
       Nav: "app/components/Nav.jsx",
